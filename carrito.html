@@ -1,0 +1,187 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Carrito</title><link rel="stylesheet" href="assets/style.css"></head><body data-depth="0"><div class="promo"><div class="promo-track"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+<header class="site-header"><div class="header-inner"><div class="header-left">
+<button class="icon-btn menu-trigger"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg><span data-i18n="menu">Menú</span></button>
+<button class="icon-btn search-trigger"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><span class="search-text" data-i18n="search">Buscar</span></button>
+<img class="logo-mini" src="assets/img/logo.jpeg" alt="Logo"></div>
+<a class="brand" href="index.html">Argentina World Store<small>Made in Argentina</small></a>
+<div class="header-right"><select id="countrySelect" class="country-select"></select>
+<a class="icon-btn account-btn" href="cuenta.html"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-5 4-7 8-7s7 2 8 7"/></svg><span data-i18n="account">Mi cuenta</span></a>
+<a class="icon-btn" href="carrito.html"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="cart-count"><b>0</b></span></a></div></div>
+<div class="mega-menu"><div class="mega-inner"><div class="menu-col"><h3 data-cat-label="Comida">Comida</h3><div class="menu-links"><a href="categorias/comida/golosinas/index.html" data-sub-label="Golosinas">Golosinas</a><a href="categorias/comida/salado/index.html" data-sub-label="Salado">Salado</a><a href="categorias/comida/delicatessen/index.html" data-sub-label="Delicatessen">Delicatessen</a><a href="categorias/comida/combos-y-ofertas/index.html" data-sub-label="Combos y Ofertas">Combos y Ofertas</a></div></div><div class="menu-col"><h3 data-cat-label="Ropa">Ropa</h3><div class="menu-links"><a href="categorias/ropa/poncho/index.html" data-sub-label="Poncho">Poncho</a><a href="categorias/ropa/gorra/index.html" data-sub-label="Gorra">Gorra</a><a href="categorias/ropa/boinas/index.html" data-sub-label="Boinas">Boinas</a><a href="categorias/ropa/gorros/index.html" data-sub-label="Gorros">Gorros</a><a href="categorias/ropa/sombreros/index.html" data-sub-label="Sombreros">Sombreros</a><a href="categorias/ropa/remera/index.html" data-sub-label="Remera">Remera</a><a href="categorias/ropa/bombacha-de-campo/index.html" data-sub-label="Bombacha de campo">Bombacha de campo</a><a href="categorias/ropa/faja/index.html" data-sub-label="Faja">Faja</a><a href="categorias/ropa/valija-argentina/index.html" data-sub-label="Valija Argentina">Valija Argentina</a><a href="categorias/ropa/bufandas/index.html" data-sub-label="Bufandas">Bufandas</a><a href="categorias/ropa/alpargatas/index.html" data-sub-label="Alpargatas">Alpargatas</a><a href="categorias/ropa/cintos/index.html" data-sub-label="Cintos">Cintos</a><a href="categorias/ropa/bolsos/index.html" data-sub-label="Bolsos">Bolsos</a><a href="categorias/ropa/mochila/index.html" data-sub-label="Mochila">Mochila</a><a href="categorias/ropa/tejidos/index.html" data-sub-label="Tejidos">Tejidos</a><a href="categorias/ropa/rinonera/index.html" data-sub-label="Riñonera">Riñonera</a><a href="categorias/ropa/camperas/index.html" data-sub-label="Camperas">Camperas</a><a href="categorias/ropa/cargo/index.html" data-sub-label="Cargo">Cargo</a><a href="categorias/ropa/combos-y-ofertas/index.html" data-sub-label="Combos y Ofertas">Combos y Ofertas</a></div></div><div class="menu-col"><h3 data-cat-label="Productos">Productos</h3><div class="menu-links"><a href="categorias/productos/mate/index.html" data-sub-label="Mate">Mate</a><a href="categorias/productos/termos/index.html" data-sub-label="Termos">Termos</a><a href="categorias/productos/materas/index.html" data-sub-label="Materas">Materas</a><a href="categorias/productos/azucarera/index.html" data-sub-label="Azucarera">Azucarera</a><a href="categorias/productos/yerbera/index.html" data-sub-label="Yerbera">Yerbera</a><a href="categorias/productos/cuchillos/index.html" data-sub-label="Cuchillos">Cuchillos</a><a href="categorias/productos/billetera-argentina/index.html" data-sub-label="Billetera Argentina">Billetera Argentina</a><a href="categorias/productos/lapiceras/index.html" data-sub-label="Lapiceras">Lapiceras</a><a href="categorias/productos/agenda/index.html" data-sub-label="Agenda">Agenda</a><a href="categorias/productos/tablas/index.html" data-sub-label="Tablas">Tablas</a><a href="categorias/productos/platos-de-madera/index.html" data-sub-label="Platos de madera">Platos de madera</a><a href="categorias/productos/conjunto-con-vaso-y-cubiertos/index.html" data-sub-label="Conjunto con vaso y cubiertos">Conjunto con vaso y cubiertos</a><a href="categorias/productos/combos-y-ofertas/index.html" data-sub-label="Combos y Ofertas">Combos y Ofertas</a></div></div></div></div></header>
+<div class="search-overlay"><button class="search-close">×</button><div class="search-box"><input id="searchInput"><div class="suggestions"></div></div></div>
+
+<main class="cart-page">
+  <div class="cart-shell">
+    <section class="cart-main">
+      <h1><span data-i18n="purchaseSummary">Resumen de compra</span> (<span id="cartProductsCount">0</span> <span data-i18n="productsCount">productos</span>)</h1>
+      <div class="cart-notice"><span class="info-dot">i</span><span data-i18n="importantNotice">Los productos permanecerán guardados en este navegador.</span></div>
+      <div id="cartItems" class="cart-items"></div>
+    </section>
+
+    <aside class="cart-side">
+      <section class="summary-card">
+        <h2 data-i18n="purchaseSummary">Resumen de compra</h2>
+        <div class="summary-count">(<span id="summaryCount">0</span> <span data-i18n="productsCount">productos</span>)</div>
+        <div class="summary-row"><span data-i18n="subtotal">Subtotal</span><strong id="subtotalValue"></strong></div>
+        <div class="summary-row muted"><span data-i18n="weight">Peso</span><span id="weightValue"></span></div>
+        <div class="summary-row total"><span data-i18n="total">Total</span><strong id="totalValue"></strong></div>
+        <button id="startCheckout" class="checkout-btn" type="button">Comprar</button>
+        <a class="continue-btn" href="index.html">Seguir agregando productos</a>
+
+        <div id="checkoutFlow" class="checkout-flow">
+          <section class="checkout-step">
+            <div class="checkout-step-head"><span class="step-number">1</span><span data-i18n="shippingAddress">Dirección de envío</span></div>
+            <div class="checkout-step-body">
+              <div id="checkoutLoginRequired" class="login-required-box">
+                <p data-i18n="checkoutLogin">Ingresá a tu cuenta para seleccionar la dirección de entrega.</p>
+                <a class="continue-btn" href="cuenta.html?mode=login" data-i18n="goToAccount">Ir a Mi cuenta</a>
+              </div>
+              <div id="checkoutAddressArea" hidden>
+                <div id="savedAddressOption" class="address-option selected">
+                  <input type="radio" name="addressChoice" value="saved" checked>
+                  <div><strong data-i18n="useProfileAddress">Usar la dirección guardada en mi perfil</strong><div id="savedAddressText" class="address-text"></div></div>
+                </div>
+                <div class="address-option">
+                  <input type="radio" name="addressChoice" value="new">
+                  <div><strong data-i18n="addAddress">Agregar otra dirección</strong></div>
+                </div>
+                <div id="newAddressForm" class="form-grid new-address-form">
+                  <div class="form-field full"><label data-i18n="address">Dirección</label><input id="shipAddress"></div>
+                  <div class="form-field"><label data-i18n="country">País</label><select id="shipCountry"></select></div>
+                  <div class="form-field"><label data-i18n="state">Provincia / Estado</label><input id="shipState"></div>
+                  <div class="form-field"><label data-i18n="city">Ciudad</label><input id="shipCity"></div>
+                  <div class="form-field"><label data-i18n="postalCode">Código postal</label><input id="shipPostal"></div>
+                </div>
+                <button id="calculateShipping" class="account-submit" type="button" data-i18n="confirmAddress">Confirmar dirección y calcular envío</button>
+                <div id="quoteMessage" class="form-message"></div>
+              </div>
+            </div>
+          </section>
+
+          <section id="paymentStep" class="checkout-step payment-selection">
+            <div class="checkout-step-head"><span class="step-number">2</span><span data-i18n="paymentStep">Elegir método de pago</span></div>
+            <div class="checkout-step-body">
+              <div id="argentinaPayment" class="payment-only">
+                <label class="payment-option selected"><input type="radio" name="finalPayment" value="mercadopago" checked><span class="payment-logo mp">MP</span><span class="payment-copy"><strong data-i18n="argentinaPayment">Mercado Pago (Argentina)</strong><small data-i18n="mercadoPagoHelp">Tarjetas, dinero en cuenta y medios disponibles en Argentina.</small></span><span class="payment-check"></span></label>
+              </div>
+              <div id="internationalPayment" class="payment-only">
+                <label class="payment-option selected"><input type="radio" name="finalPayment" value="paypal" checked><span class="payment-logo pp">Pay<br>Pal</span><span class="payment-copy"><strong data-i18n="internationalPayment">PayPal (Exterior)</strong><small data-i18n="paypalHelp">Pago internacional con PayPal o tarjeta según disponibilidad.</small></span><span class="payment-check"></span></label>
+              </div>
+              <div id="quoteBox" class="quote-box">
+                <div class="quote-row"><span data-i18n="productsSubtotal">Subtotal de productos</span><strong id="checkoutProductsTotal"></strong></div>
+                <div class="quote-row"><span data-i18n="shippingCost">Costo de envío</span><strong id="checkoutShippingTotal"></strong></div>
+                <div class="quote-row grand"><span data-i18n="orderTotal">Total de la compra</span><strong id="checkoutGrandTotal"></strong></div>
+              </div>
+              <button id="confirmPurchase" class="checkout-pay-button" type="button" data-i18n="confirmPurchase">Confirmar compra</button>
+              <div id="paymentMessage" class="form-message"></div>
+              <div id="payLoader" class="inline-loader">Procesando…</div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </aside>
+  </div>
+</main>
+
+
+<div id="localFileWarning" class="local-file-warning" hidden>
+  Esta parte necesita el servidor. Abrí la tienda desde <b>http://localhost:3000</b>, no haciendo doble clic en el HTML.
+</div>
+<a class="whatsapp" href="https://wa.me/5492926405465" target="_blank">☎</a>
+<script src="assets/app.js"></script>
+<script>
+const AUTH_TOKEN_KEY='aws-auth-token';
+let checkoutUser=null,shippingQuote=null,selectedAddress=null;
+const authToken=()=>localStorage.getItem(AUTH_TOKEN_KEY)||'';
+const authHeaders=()=>({'Content-Type':'application/json',...(authToken()?{Authorization:'Bearer '+authToken()}:{})});
+function cartMedia(p){return p.type==='video'?`<video muted playsinline poster="assets/${p.poster||''}"><source src="assets/${p.media}" type="video/mp4"></video>`:`<img src="assets/${p.media}" alt="${nameFor(p.id)}">`}
+function currentCart(){return JSON.parse(localStorage.getItem('aws-cart')||'[]')}
+function showMsg(el,text,ok=false){el.textContent=text;el.className='form-message show '+(ok?'ok':'error')}
+function saveCart(cart){localStorage.setItem('aws-cart',JSON.stringify(cart));updateCart();renderCart()}
+function changeCartQty(id,value){let cart=currentCart(),item=cart.find(x=>x.id===id);if(item){item.qty=Math.max(1,Number(value)||1);saveCart(cart)}}
+function removeCartItem(id){saveCart(currentCart().filter(x=>x.id!==id))}
+function cartTotals(){
+ const cart=currentCart();
+ return {
+  count:cart.reduce((a,b)=>a+b.qty,0),
+  usd:cart.reduce((a,x)=>{const p=DATA.products.find(y=>y.id===x.id);return a+(p?p.usd*x.qty:0)},0),
+  kg:cart.reduce((a,x)=>{const p=DATA.products.find(y=>y.id===x.id);return a+(p?p.kg*x.qty:0)},0)
+ };
+}
+function renderCart(){
+ const cart=currentCart(),box=document.getElementById('cartItems'),tot=cartTotals();
+ document.getElementById('cartProductsCount').textContent=localDigits(tot.count);
+ document.getElementById('summaryCount').textContent=localDigits(tot.count);
+ document.getElementById('subtotalValue').textContent=formatMoney(tot.usd);
+ document.getElementById('totalValue').textContent=formatMoney(tot.usd);
+ document.getElementById('weightValue').textContent=formatWeight(tot.kg);
+ if(!cart.length){box.innerHTML=`<div class="cart-empty-box"><h2>${tr().cartEmpty}</h2><p>${tr().emptyHelp}</p></div>`;return}
+ box.innerHTML=cart.map(item=>{const p=DATA.products.find(x=>x.id===item.id);return `<article class="cart-item"><div class="cart-thumb">${cartMedia(p)}</div><div><div class="cart-item-title">${nameFor(p.id)}</div><div class="cart-specs"><div><strong>${tr().weight || 'Peso'}:</strong> ${formatWeight(p.kg)}</div><div><strong>${tr().unitPrice || 'Precio unitario'}:</strong> ${formatMoney(p.usd)}</div></div><div class="cart-qty-row"><label>${tr().quantity || 'Cantidad'}:</label><input class="cart-qty" type="number" min="1" value="${item.qty}" onchange="changeCartQty('${p.id}',this.value)"></div><div class="cart-unit-price">${formatMoney(p.usd*item.qty)}</div></div><button class="cart-remove" onclick="removeCartItem('${p.id}')">×</button></article>`}).join('');
+}
+function addressText(a){return [a.address,a.city,a.state,a.postalCode,a.country].filter(Boolean).join(', ')}
+function fillShipCountries(){
+ const s=document.getElementById('shipCountry');s.innerHTML=DATA.countries.map(x=>`<option value="${x.country}">${displayCountry(x.country)}</option>`).join('');
+}
+async function loadCheckoutUser(){
+ if(!authToken()){checkoutUser=null;return}
+ const r=await fetch('/api/auth/me',{headers:authHeaders()});
+ if(!r.ok){localStorage.removeItem(AUTH_TOKEN_KEY);checkoutUser=null;return}
+ checkoutUser=(await r.json()).user;
+}
+function chosenAddress(){
+ const choice=document.querySelector('input[name=addressChoice]:checked')?.value;
+ if(choice==='saved')return {address:checkoutUser.address,country:checkoutUser.country,state:checkoutUser.state,city:checkoutUser.city,postalCode:checkoutUser.postalCode};
+ return {address:shipAddress.value.trim(),country:shipCountry.value,state:shipState.value.trim(),city:shipCity.value.trim(),postalCode:shipPostal.value.trim()};
+}
+async function beginCheckout(){
+ if(!currentCart().length)return;
+ document.getElementById('checkoutFlow').classList.add('show');
+ await loadCheckoutUser();
+ const required=document.getElementById('checkoutLoginRequired'),area=document.getElementById('checkoutAddressArea');
+ if(!checkoutUser){required.hidden=false;area.hidden=true}
+ else{required.hidden=true;area.hidden=false;document.getElementById('savedAddressText').textContent=addressText(checkoutUser)}
+ document.getElementById('checkoutFlow').scrollIntoView({behavior:'smooth',block:'start'});
+}
+async function calculateShipping(){
+ const msg=document.getElementById('quoteMessage'),address=chosenAddress();
+ if(!address.address||!address.country||!address.city||!address.postalCode){showMsg(msg,'Completá la dirección, ciudad, país y código postal.');return}
+ try{
+  const r=await fetch('/api/shipping/quote',{method:'POST',headers:authHeaders(),body:JSON.stringify({cart:currentCart(),address})});
+  const j=await r.json();if(!r.ok)throw new Error(j.error||'Error');
+  selectedAddress=address;shippingQuote=j;
+  if(!j.configured)showMsg(msg,tr().shippingPending);else showMsg(msg,tr().shippingCalculated,true);
+  const payment=document.getElementById('paymentStep');payment.classList.add('show');
+  const isArgentina=address.country==='Argentina';
+  document.getElementById('argentinaPayment').classList.toggle('show',isArgentina);
+  document.getElementById('internationalPayment').classList.toggle('show',!isArgentina);
+  document.querySelectorAll('input[name=finalPayment]').forEach(x=>x.checked=(isArgentina&&x.value==='mercadopago')||(!isArgentina&&x.value==='paypal'));
+  document.getElementById('checkoutProductsTotal').textContent=formatMoney(j.productsUsd);
+  document.getElementById('checkoutShippingTotal').textContent=j.configured?formatMoney(j.shippingUsd):tr().shippingPending;
+  document.getElementById('checkoutGrandTotal').textContent=formatMoney(j.totalUsd);
+  document.getElementById('quoteBox').classList.add('show');
+  document.getElementById('confirmPurchase').disabled=!j.configured;
+  payment.scrollIntoView({behavior:'smooth',block:'start'});
+ }catch(e){showMsg(msg,e.message)}
+}
+async function confirmPurchase(){
+ const method=document.querySelector('input[name=finalPayment]:checked')?.value,msg=document.getElementById('paymentMessage'),loader=document.getElementById('payLoader');
+ if(!shippingQuote?.configured){showMsg(msg,tr().shippingPending);return}
+ loader.classList.add('show');
+ try{
+  const endpoint=method==='mercadopago'?'/api/mercadopago/create-preference':'/api/paypal/create-order';
+  const r=await fetch(endpoint,{method:'POST',headers:authHeaders(),body:JSON.stringify({cart:currentCart(),shippingUsd:shippingQuote.shippingUsd,address:selectedAddress})});
+  const j=await r.json();if(!r.ok)throw new Error(j.error||tr().paymentUnavailable);
+  location.href=j.checkoutUrl||j.approveUrl;
+ }catch(e){showMsg(msg,e.message)}finally{loader.classList.remove('show')}
+}
+document.addEventListener('DOMContentLoaded',()=>{
+ applyAll();renderCart();fillShipCountries();
+ if(location.protocol==='file:') document.getElementById('localFileWarning').hidden=false;
+ document.getElementById('startCheckout').onclick=beginCheckout;
+ document.querySelectorAll('input[name=addressChoice]').forEach(x=>x.onchange=()=>document.getElementById('newAddressForm').classList.toggle('show',x.value==='new'&&x.checked));
+ document.getElementById('calculateShipping').onclick=calculateShipping;
+ document.getElementById('confirmPurchase').onclick=confirmPurchase;
+});
+window.addEventListener('cart:updated',renderCart);
+</script>
+</body></html>
